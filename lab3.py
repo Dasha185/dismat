@@ -13,7 +13,7 @@ def permutation(n, repetitions):
         result //= factorial(rep)
     return result
 
-print("1.1:", permutation(7, [2, 2]))
+print("1.1:", permutation(7, []))
 print("1.2:", permutation(7, [2]))
 print("1.3:", permutation(8, [2, 2, 2]))
 print("1.4:", combinations(12, 3) * combinations(5, 2))
